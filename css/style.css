@@ -43,6 +43,16 @@ html, body {
 }
 
 /* Mid Site Section */
+.mid-site-home {
+    margin: 50px 5%;
+    display: block;
+}
+
+.mid-site-home p {
+    font-size: var(--font-size-p);
+    line-height: 1.3;
+    text-align: right;
+}
 .mid-site {
     margin: 50px 5%;
     display: block;
