@@ -14,7 +14,7 @@ html, body {
     --main-bg-color: black;
     --main-text-color: white;
     --highlight-color: darkred;
-    --font-family-main: 'Freestyle Script', cursive;
+    --font-family-main: 'Freestyle Script';
     --font-size-h1: 60px;
     --font-size-h2: 32px;
     --font-size-p: 20px;
@@ -26,15 +26,16 @@ html, body {
 /* Top Site Section */
 .top-site {
     position: fixed;
+    top: 0;
     width: 100%;
-    height: 200px;
+    height: 170px;
     background-color: var(--main-bg-color);
 }
 
 .top-site h1 {
     color: var(--main-text-color);
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: var(--font-family-main);
     font-size: var(--font-size-h1);
 }
@@ -44,18 +45,8 @@ html, body {
 }
 
 /* Mid Site Section */
-.mid-site-home {
-    margin: 50px 5%;
-    display: block;
-}
-
-.mid-site-home p {
-    font-size: var(--font-size-p);
-    line-height: 1.3;
-    text-align: left;
-}
 .mid-site {
-    margin: 50px 5%;
+    margin: 250px 5% 50px 5%;
     display: block;
 }
 
