@@ -18,7 +18,7 @@ html, body {
     --font-size-h1: 60px;
     --font-size-h2: 32px;
     --font-size-p: 20px;
-    --font-size-menu: 20px;
+    --font-size-menu: 18px;
     --font-size-button: 40px;
     --button-size: 125px;
 }
@@ -74,6 +74,9 @@ html, body {
     background: rgb(100,100,100,0.5);
     position: fixed;
     padding: 10px;
+    display: flex;
+    align-items: center;
+}
 }
 .menu a {
     margin-left: 20px;
