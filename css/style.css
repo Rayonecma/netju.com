@@ -14,7 +14,7 @@ html, body {
     --main-bg-color: black;
     --main-text-color: white;
     --highlight-color: darkred;
-    --font-family-main: 'Freestyle Script';
+    --font-family-main: 'Freestyle Script', cursive;
     --font-size-h1: 60px;
     --font-size-h2: 32px;
     --font-size-p: 20px;
