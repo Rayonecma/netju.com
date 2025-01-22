@@ -170,7 +170,7 @@ html, body {
 }
 
 .social {
-    position: absolute;
+    position: fixed;
     left: 5%;
     bottom: 15px;
 }
