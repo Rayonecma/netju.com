@@ -9,9 +9,9 @@ html, body {
     height: 100%;
 }
 
-@font-face{
+@font-face {
     font-family: 'Freestyle Script';
-    src: url('/netju.com/fonts/FreestyleScript.ttf') format('truetype');
+    src: url('netju.com/fonts/FreestyleScript.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +21,7 @@ html, body {
     --main-bg-color: black;
     --main-text-color: white;
     --highlight-color: darkred;
-    --font-family-main:"Freestyle Script", cursive;
+    --font-family-main: "Freestyle Script", cursive;
     --font-size-h1: 5rem;
     --font-size-h2: 32px;
     --font-size-p: 20px;
@@ -65,6 +65,9 @@ html, body {
 
 .mid-site h2 {
     font-size: var(--font-size-h2);
+}
+
+.mid-site span {
     text-decoration: underline;
 }
 
@@ -74,18 +77,17 @@ html, body {
     font-weight: bold;
 }
 
-
-
 /* Menu */
-.menu{
+.menu {
     width: 100%;
-    background: rgb(100,100,100,0.7);
+    background: rgba(100, 100, 100, 0.7);
     position: fixed;
     top: 0;
     padding: 10px;
     display: flex;
     align-items: center;
 }
+
 .menu a {
     margin-left: 20px;
     font-size: var(--font-size-menu);
@@ -96,7 +98,7 @@ html, body {
     text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
     border: 2px solid var(--main-text-color);
     border-radius: 8px;
 }
@@ -107,22 +109,22 @@ html, body {
 
 /* Image */
 #imagem {
-    float:left;
+    float: left;
     max-width: 40%;
     height: auto;
-    margin-right:40px;
+    margin-right: 40px;
     padding-top: 0;
 }
 
 #avatar {
-    float:right;
+    float: right;
     max-width: 40%;
     height: auto;
-    margin:0 20px;
+    margin: 0 20px;
     padding-top: 0;
 }
 
-#icone{
+#icone {
     float: left;
 }
 
@@ -138,13 +140,14 @@ html, body {
     border: none;
     cursor: pointer;
 }
-#office-button:hover{
-    background:#88e833;
+
+#office-button:hover {
+    background: #88e833;
 }
 
-/*Design Button*/
+/* Design Button */
 #design-button {
-    margin-left:5%; 
+    margin-left: 5%;
     font-size: var(--font-size-button);
     font-family: var(--font-family-main);
     height: var(--button-size);
@@ -155,12 +158,19 @@ html, body {
     border: none;
     cursor: pointer;
 }
-#design-button:hover{
-    background:#88e833;
+
+#design-button:hover {
+    background: #88e833;
 }
 
-.button{
+.button {
     text-align: center;
     margin: 0 auto;
-    padding-bottom:15px;
+    padding-bottom: 20px;
+}
+
+.social {
+    position: absolute;
+    left: 5%;
+    bottom: 15px;
 }
