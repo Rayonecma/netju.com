@@ -11,7 +11,7 @@ html, body {
 
 @font-face {
     font-family: 'Freestyle Script';
-    src: url('netju.com/fonts/FreestyleScript.ttf') format('truetype'), src: url('netju.com/fonts/FreestyleScript.woff2') format('woff2');
+    src: url('netju.com/fonts/FreestyleScript.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -21,7 +21,7 @@ html, body {
     --main-bg-color: black;
     --main-text-color: white;
     --highlight-color: darkred;
-    --font-family-main: 'Freestyle Script', cursive;
+    --font-family-main: "Freestyle Script", cursive;
     --font-size-h1: 5rem;
     --font-size-h2: 32px;
     --font-size-p: 20px;
@@ -139,6 +139,7 @@ html, body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 #office-button:hover {
@@ -157,6 +158,7 @@ html, body {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+    display: inline-block;
 }
 
 #design-button:hover {
@@ -170,7 +172,5 @@ html, body {
 }
 
 .social {
-    position: absolute;
-    left: 5%;
-    top: 95%;
+    padding: 5%;
 }
