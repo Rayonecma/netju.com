@@ -9,6 +9,11 @@ html, body {
     height: 100%;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 @font-face {
     font-family: 'Freestyle Script';
     src: url('../fonts/FreestyleScript.ttf') format('truetype'), url('../fonts/FreestyleScript.woff2') format('woff2');
@@ -96,7 +101,8 @@ html, body {
 /* Mid Site Section */
 .mid-site {
     margin: 50px 5%;
-    display: block;
+    display: inline-block;
+    flex: 1;
 }
 
 .mid-site p {
@@ -134,10 +140,21 @@ html, body {
     height: auto;
     margin: 0 20px;
     padding-top: 0;
+    width: 220px;
 }
 
-#icone {
-    float: left;
+#icone-link {
+    display: block;
+    margin: 0; 
+    padding: 0;
+}
+
+#icone{
+    width: 50px;
+}
+
+.clear{
+    clear: both;
 }
 
 /* Office Button */
@@ -188,15 +205,33 @@ html, body {
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
+    display: flex;
+    flex: 1;
 }
 
 .social {
-    background-color: white;
+    background-color: rgb(220,220,220);
     position: fixed;
     right: 20px;
     bottom: 20px;
-    z-index: 1000;
     border: none;
+    vertical-align: middle;
+}
+
+.social img {
+    background-color: rgb(150,150,150); /* Garante que a imagem herde a cor do contêiner */
+    display: block;
+    padding: 0;
+}
+
+footer{
+    width: 100%;
+    padding: 30px;
+    bottom: 0;
+    border-top: 5px solid rgb(150,150,150);
+    background-color: rgb(150,150,150);
+    text-align: center;
+    color: rgb(240,240,240);
 }
 
 @media screen and (max-width: 768px){
