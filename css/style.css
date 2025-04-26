@@ -106,6 +106,12 @@ html, body{
     border-radius: 20px;
 }
 
+.imagem-lkdn{
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
 /*****/
 /*Estilos gerais dos botões*/
 
@@ -157,6 +163,33 @@ input.office, input.graficas, input.sobre{
 input.sobre{
     width: 30%;
     margin: 0 auto;
+}
+
+.sessao-linkedin{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-linkedin{
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+}
+
+input.linkedin{
+    width: 100%;
+    height: 40px;
+    background-color: #012bb6;
+    background-color: #012bb6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Delius', sans-serif;
+    font-size: 16px;
 }
 
 /*****/
