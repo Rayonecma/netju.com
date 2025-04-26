@@ -1,0 +1,228 @@
+/*Estilos gerais.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-family: 'Delius', sans-serif;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.clear{
+    clear:both;
+}
+
+/*****/
+/*Estilo principais das divs*/
+
+.parte1, .parte2{
+    width: 100%;
+    height: 220px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.texto1, .texto2{
+    padding: 20px;
+    width: 55%;
+}
+.texto1 h1, .texto2 h1, .texto-sobre h1{
+    font-size: 40px;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.texto1 p, .texto2 p, .texto-sobre p{
+    font-size: 20px;
+    color: #2b2b2b;
+    margin-bottom: 10px;
+}
+
+.parte1 .imagem1, .parte2 .imagem2{
+    margin-right: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+/*****/
+/*Estilos específicos das divs*/
+
+.parte1{
+    background-color: #dee8f1;
+}
+
+.parte2{
+    background-color: #f4f5ec;
+}
+
+.texto1{
+    margin-right: 100px;
+}
+
+.texto2{
+    margin-left: 100px;
+}
+
+.sobre{
+    width: 100%;
+    height: 500px;
+    background-color: #dee8f1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    padding: 35px;
+    width: 55%;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.imagem-sobre{
+    margin-right: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 37%;
+    height: 89%;
+    border-radius: 20px;
+}
+
+/*****/
+/*Estilos gerais dos botões*/
+
+.button-office,.button-graficas{
+    width: 50%;
+    
+}
+
+input.office, input.graficas{
+    width: 80%;
+}
+
+input.office, input.graficas, input.sobre{
+    height: 60px;
+    background-color: #012bb6;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Delius', sans-serif;
+    font-size: 20px;
+}
+
+.button-sobre a, .button-home a{
+    text-decoration: none;
+}
+
+/*****/
+/*Estilos específicos dos botões*/
+
+.button{
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.button-office{
+    margin-left: 10%;
+}
+
+
+.button-sobre{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+input.sobre{
+    width: 30%;
+    margin: 0 auto;
+}
+
+/*****/
+/*Responsivo*/
+
+@media screen and (max-width: 960px){
+    .sobre{
+        height: 100%;
+    }
+
+    .texto-sobre{
+        text-align: left;
+    }
+
+    .imagem-sobre{
+        width: 300px;
+        height: 350px;
+    }   
+}
+
+@media screen and (max-width: 768px)
+{
+    .parte1, .parte2, .sobre{
+        display: block;
+        height: auto;
+        width: 100%;
+    }
+    .texto1, .texto2, .texto-sobre{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .parte1 .imagem1, .parte2 .imagem2{
+        width: 400px;
+        height: 370px;
+        margin: 0 auto;
+    }
+
+    .imagem-sobre{
+        width: 300px;
+        height: 350px;
+        margin: 0 auto;
+    }
+
+    .button-office, .button-graficas{
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .parte1 .imagem1, .parte2 .imagem2{
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    .imagem-sobre{
+        width: 200px;
+        height: 230px;
+        margin: 0 auto;
+    }
+
+    input.office, input.graficas, input.sobre{
+        font-size: 17px;
+    }
+}
+
+/*****/
