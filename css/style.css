@@ -126,7 +126,7 @@ input.office, input.graficas{
 
 input.office, input.graficas, input.sobre{
     height: 60px;
-    background-color: #012bb6;
+    background-color: #0032d6;
     color: white;
     cursor: pointer;
     border: none;
@@ -137,6 +137,11 @@ input.office, input.graficas, input.sobre{
 
 .button-sobre a, .button-home a{
     text-decoration: none;
+}
+
+input.office:hover, input.graficas:hover, input.sobre:hover, input.linkedin:hover{
+    transition: all 0.3s ease;
+    background-color: #002497;
 }
 
 /*****/
